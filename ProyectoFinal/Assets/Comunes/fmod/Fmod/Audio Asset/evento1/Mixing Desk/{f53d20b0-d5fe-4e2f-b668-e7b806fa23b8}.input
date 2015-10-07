@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects managedObjectVersionString="Studio.1.DeveloperPreview.0">
+    <object class="MixerInput" id="{f53d20b0-d5fe-4e2f-b668-e7b806fa23b8}">
+        <property name="volume">
+            <value>0</value>
+        </property>
+        <property name="pitch">
+            <value>0</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{c486282c-d311-4ff7-935e-08309b01f351}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{ea5b9a63-95b3-43e4-aae7-e55c7aae31f8}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{c486282c-d311-4ff7-935e-08309b01f351}">
+        <property name="bypass"/>
+        <relationship name="effects">
+            <destination>{25ce10f3-db7d-4d62-96aa-70c363e63b1a}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{ea5b9a63-95b3-43e4-aae7-e55c7aae31f8}">
+        <property name="bypass"/>
+        <property name="stereoPan">
+            <value>0</value>
+        </property>
+        <property name="stereoLeftPan">
+            <value>0</value>
+        </property>
+        <property name="stereoRightPan">
+            <value>0</value>
+        </property>
+        <property name="surroundPanDirection">
+            <value>0</value>
+        </property>
+        <property name="surroundPanExtent">
+            <value>360</value>
+        </property>
+        <property name="surroundLFELevel">
+            <value>0</value>
+        </property>
+        <property name="stereoToSurroundPanMode">
+            <value>1</value>
+        </property>
+        <property name="surroundStereoSeparation">
+            <value>60</value>
+        </property>
+        <property name="surroundStereoAxis">
+            <value>0</value>
+        </property>
+        <property name="overridingOutputFormat">
+            <value>0</value>
+        </property>
+        <property name="outputFormatOverridden">
+            <value>false</value>
+        </property>
+        <property name="enabledSurroundSpeakers">
+            <value>255</value>
+        </property>
+        <property name="LFEUpmixEnabled">
+            <value>false</value>
+        </property>
+    </object>
+    <object class="MixerBusFader" id="{25ce10f3-db7d-4d62-96aa-70c363e63b1a}">
+        <property name="bypass"/>
+    </object>
+</objects>

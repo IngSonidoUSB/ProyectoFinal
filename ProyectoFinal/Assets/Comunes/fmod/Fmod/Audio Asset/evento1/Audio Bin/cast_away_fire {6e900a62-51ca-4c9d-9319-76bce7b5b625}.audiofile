@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects managedObjectVersionString="Studio.1.DeveloperPreview.0">
+    <object class="AudioFile" id="{6e900a62-51ca-4c9d-9319-76bce7b5b625}">
+        <property name="name"/>
+        <property name="frequencyInKHz">
+            <value>11.025</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>10.4835</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/cast_away_fire {ef3abd82-859d-4352-8c0d-2df31af795f0}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{4d82805d-a5f4-4483-ab9d-aa3668c3f1c6}</destination>
+        </relationship>
+    </object>
+</objects>

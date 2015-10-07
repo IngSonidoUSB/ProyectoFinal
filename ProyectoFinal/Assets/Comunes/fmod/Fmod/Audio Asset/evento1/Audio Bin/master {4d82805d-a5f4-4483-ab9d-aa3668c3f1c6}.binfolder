@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects managedObjectVersionString="Studio.1.DeveloperPreview.0">
+    <object class="MasterAudioBinFolder" id="{4d82805d-a5f4-4483-ab9d-aa3668c3f1c6}">
+        <property name="name">
+            <value>master</value>
+        </property>
+    </object>
+</objects>

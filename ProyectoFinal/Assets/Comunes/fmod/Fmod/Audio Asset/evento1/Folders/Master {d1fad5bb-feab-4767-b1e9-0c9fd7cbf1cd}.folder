@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects managedObjectVersionString="Studio.1.DeveloperPreview.0">
+    <object class="MasterFolder" id="{d1fad5bb-feab-4767-b1e9-0c9fd7cbf1cd}">
+        <property name="name">
+            <value>Master</value>
+        </property>
+        <property name="note"/>
+    </object>
+</objects>

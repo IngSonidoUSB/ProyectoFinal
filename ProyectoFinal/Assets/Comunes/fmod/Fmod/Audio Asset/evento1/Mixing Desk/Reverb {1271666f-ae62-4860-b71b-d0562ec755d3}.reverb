@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects managedObjectVersionString="Studio.1.DeveloperPreview.0">
+    <object class="MixerGlobalReverb" id="{1271666f-ae62-4860-b71b-d0562ec755d3}">
+        <property name="volume">
+            <value>0</value>
+        </property>
+        <property name="pitch">
+            <value>0</value>
+        </property>
+        <property name="name">
+            <value>Reverb</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{55a8c600-f6cc-4eb1-98b6-ba5d19cdb92a}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{af9bc24d-43e3-4f10-b6d7-6398bbde8f18}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{1475146e-4bbc-4bab-87f5-708561534bbc}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{1fe885e2-c2b8-4c61-a7e2-e3178dcb3c8f}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{55a8c600-f6cc-4eb1-98b6-ba5d19cdb92a}">
+        <property name="bypass"/>
+        <relationship name="effects">
+            <destination>{0bb5b2dc-f7f3-45fb-b260-671e4655c53e}</destination>
+            <destination>{37017325-6c4b-4936-872b-ef30e3c403f5}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{af9bc24d-43e3-4f10-b6d7-6398bbde8f18}">
+        <property name="bypass"/>
+        <property name="stereoPan">
+            <value>0</value>
+        </property>
+        <property name="stereoLeftPan">
+            <value>0</value>
+        </property>
+        <property name="stereoRightPan">
+            <value>0</value>
+        </property>
+        <property name="surroundPanDirection">
+            <value>0</value>
+        </property>
+        <property name="surroundPanExtent">
+            <value>360</value>
+        </property>
+        <property name="surroundLFELevel">
+            <value>0</value>
+        </property>
+        <property name="stereoToSurroundPanMode">
+            <value>1</value>
+        </property>
+        <property name="surroundStereoSeparation">
+            <value>60</value>
+        </property>
+        <property name="surroundStereoAxis">
+            <value>0</value>
+        </property>
+        <property name="overridingOutputFormat">
+            <value>0</value>
+        </property>
+        <property name="outputFormatOverridden">
+            <value>false</value>
+        </property>
+        <property name="enabledSurroundSpeakers">
+            <value>255</value>
+        </property>
+        <property name="LFEUpmixEnabled">
+            <value>false</value>
+        </property>
+    </object>
+    <object class="SFXReverbEffect" id="{0bb5b2dc-f7f3-45fb-b260-671e4655c53e}">
+        <property name="bypass"/>
+        <property name="decayTime">
+            <value>1500</value>
+        </property>
+        <property name="earlyDelay">
+            <value>20</value>
+        </property>
+        <property name="lateDelay">
+            <value>40</value>
+        </property>
+        <property name="HFReference">
+            <value>5000</value>
+        </property>
+        <property name="HFDecayRatio">
+            <value>50</value>
+        </property>
+        <property name="diffusion">
+            <value>100</value>
+        </property>
+        <property name="density">
+            <value>100</value>
+        </property>
+        <property name="lowShelfFrequency">
+            <value>250</value>
+        </property>
+        <property name="lowShelfGain">
+            <value>0</value>
+        </property>
+        <property name="highCut">
+            <value>5000</value>
+        </property>
+        <property name="earlyLateMix">
+            <value>50</value>
+        </property>
+        <property name="wetLevel">
+            <value>0</value>
+        </property>
+        <property name="dryLevel">
+            <value>-80</value>
+        </property>
+    </object>
+    <object class="MixerBusFader" id="{37017325-6c4b-4936-872b-ef30e3c403f5}">
+        <property name="bypass"/>
+    </object>
+</objects>

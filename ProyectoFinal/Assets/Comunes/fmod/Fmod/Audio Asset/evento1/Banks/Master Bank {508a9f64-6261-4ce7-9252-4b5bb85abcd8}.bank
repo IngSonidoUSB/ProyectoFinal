@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects managedObjectVersionString="Studio.1.DeveloperPreview.0">
+    <object class="MasterBank" id="{508a9f64-6261-4ce7-9252-4b5bb85abcd8}">
+        <property name="name">
+            <value>Master Bank</value>
+        </property>
+        <property name="dontLoopOptionEnabled">
+            <value>false</value>
+        </property>
+        <relationship name="buildSettings">
+            <destination>{f0907858-f400-4e1a-bea9-c9df937cf907}</destination>
+        </relationship>
+        <relationship name="banklist">
+            <destination>{11c1f339-8eaa-4987-bb86-7ad000aeebaf}</destination>
+        </relationship>
+    </object>
+    <object class="DesktopBuildSetting" id="{f0907858-f400-4e1a-bea9-c9df937cf907}">
+        <relationship name="compressionSettings">
+            <destination>{289e5a8d-c31f-461a-8d09-ddb4376b6f32}</destination>
+            <destination>{a5e1a859-a4c5-4a09-9c75-e08796bc5746}</destination>
+            <destination>{46eb89d0-26e0-4052-9051-b6042debbbf7}</destination>
+            <destination>{211bb14e-66a5-4c73-9d05-57842d3afd9e}</destination>
+        </relationship>
+        <relationship name="activeCompressionSetting">
+            <destination>{289e5a8d-c31f-461a-8d09-ddb4376b6f32}</destination>
+        </relationship>
+    </object>
+    <object class="LossyCompressionSetting" id="{289e5a8d-c31f-461a-8d09-ddb4376b6f32}">
+        <property name="type">
+            <value>Vorbis</value>
+        </property>
+        <property name="quality">
+            <value>80</value>
+        </property>
+    </object>
+    <object class="LossyCompressionSetting" id="{a5e1a859-a4c5-4a09-9c75-e08796bc5746}">
+        <property name="type">
+            <value>MP3</value>
+        </property>
+        <property name="quality">
+            <value>80</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{46eb89d0-26e0-4052-9051-b6042debbbf7}">
+        <property name="type">
+            <value>ADPCM</value>
+        </property>
+        <property name="sampleRate">
+            <value>44100</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{211bb14e-66a5-4c73-9d05-57842d3afd9e}">
+        <property name="type">
+            <value>PCM</value>
+        </property>
+        <property name="sampleRate">
+            <value>44100</value>
+        </property>
+    </object>
+</objects>
