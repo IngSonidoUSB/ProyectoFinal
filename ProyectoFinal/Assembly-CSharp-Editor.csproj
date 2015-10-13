@@ -45,9 +45,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Comunes\EasyRoads3D Free\Editor\EasyRoadsEditorMenu.cs" />
+     <Compile Include="Assets\Comunes\EasyRoads3D Free\Editor\NewEasyRoads3D.cs" />
+     <Compile Include="Assets\Comunes\EasyRoads3D Free\Editor\ObjectManager.cs" />
+     <Compile Include="Assets\Comunes\EasyRoads3D Free\Editor\ProceduralObjectsEditor.cs" />
+     <Compile Include="Assets\Comunes\EasyRoads3D Free\Editor\SideObjectImporter.cs" />
+     <Compile Include="Assets\Comunes\EasyRoads3D Free\Editor\SideObjectInit.cs" />
      <Compile Include="Assets\Editor\FMODEventEmitterInspector.cs" />
      <Compile Include="Assets\Editor\FMODEventInspector.cs" />
+     <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Surface.shader" />
+     <None Include="Assets\Comunes\EasyRoads3D Free\Release Notes.txt" />
+     <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D Marker.shader" />
+     <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Surface_Alpha.shader" />
      <None Include="Assets\test.txt" />
+     <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\surfaceAlpha.shader" />
+     <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Normal-Diffuse.shader" />
+     <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\Surface.shader" />
+     <None Include="Assets\Comunes\EasyRoads3D Free\_readme.txt" />
+     <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Road-Edit-Mode.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -89,6 +104,12 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3D">
+ <HintPath>/Users/miguelolivares/Unity/ProyectoFinal/ProyectoFinal/Assets/Comunes/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3DEditor">
+ <HintPath>/Users/miguelolivares/Unity/ProyectoFinal/ProyectoFinal/Assets/Comunes/EasyRoads3D Free/Editor/EasyRoads3DEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
