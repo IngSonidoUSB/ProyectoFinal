@@ -51,6 +51,24 @@
      <Compile Include="Assets\Comunes\EasyRoads3D Free\scripts\SideObjectInit.cs" />
      <Compile Include="Assets\Comunes\EasyRoads3D Free\scripts\SurfaceScript.cs" />
      <Compile Include="Assets\Comunes\EasyRoads3D Free\scripts\sideObjectScript.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRigidBody.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRoad.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRoadAutomation.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRoadEdgeObjects.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRoadIntersection.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRoadMeshSplinate.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRoadSystem.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRoadUtility.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRoadUtilityEditor.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRoadUtilityT.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDRootUtil.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDTerrain.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDTrafficLightController.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\GSDUnitTests.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\Spline\GSDSplineC.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\Spline\GSDSplineF.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\Spline\GSDSplineI.cs" />
+     <Compile Include="Assets\Comunes\RoadArchitect\Spline\GSDSplineN.cs" />
      <Compile Include="Assets\Comunes\Scripts\Animation.cs" />
      <Compile Include="Assets\NIvel 3\text3.cs" />
      <Compile Include="Assets\NIvel 4\text4.cs" />
@@ -58,27 +76,31 @@
      <Compile Include="Assets\Nivel 1\text1.cs" />
      <Compile Include="Assets\Nivel 2\text2.cs" />
      <Compile Include="Assets\Nivel 5\text5.cs" />
+     <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDTransparentWithShadowsZ.shader" />
+     <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDShoulderDirt.shader" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Surface.shader" />
+     <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShader.shader" />
+     <None Include="Assets\Comunes\RoadArchitect\Readme.txt" />
+     <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderLow.shader" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Release Notes.txt" />
+     <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderLowDX11.shader" />
+     <None Include="Assets\Comunes\RoadArchitect\versionhistory.txt" />
+     <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDTransparentWithShadows.shader" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D Marker.shader" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Surface_Alpha.shader" />
      <None Include="Assets\test.txt" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\surfaceAlpha.shader" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Normal-Diffuse.shader" />
+     <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDShoulderDirtDX11.shader" />
+     <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderDX11.shader" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\Surface.shader" />
      <None Include="Assets\Comunes\EasyRoads3D Free\_readme.txt" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Road-Edit-Mode.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="EasyRoads3D">
  <HintPath>/Users/miguelolivares/Unity/ProyectoFinal/ProyectoFinal/Assets/Comunes/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
