@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -38,10 +38,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +70,22 @@
      <Compile Include="Assets\Comunes\RoadArchitect\Spline\GSDSplineI.cs" />
      <Compile Include="Assets\Comunes\RoadArchitect\Spline\GSDSplineN.cs" />
      <Compile Include="Assets\Comunes\Scripts\Animation.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\NIvel 3\text3.cs" />
      <Compile Include="Assets\NIvel 4\text4.cs" />
      <Compile Include="Assets\NIvel 6\NewBehaviourScript.cs" />
@@ -77,9 +93,9 @@
      <Compile Include="Assets\Nivel 2\text2.cs" />
      <Compile Include="Assets\Nivel 5\text5.cs" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDTransparentWithShadowsZ.shader" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\Master.xml" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDShoulderDirt.shader" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Surface.shader" />
+     <None Include="Assets\Comunes\Single_rock\readme.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShader.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Readme.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderLow.shader" />
@@ -87,46 +103,40 @@
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderLowDX11.shader" />
      <None Include="Assets\Comunes\RoadArchitect\versionhistory.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDTransparentWithShadows.shader" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\EventFolder\{b9c7e894-6965-43c0-9c11-e969d9c2ea74}.xml" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\Tags.xml" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D Marker.shader" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Surface_Alpha.shader" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\AudioFile\{693d7d06-8230-4563-a502-9f2f1ed69fcd}.xml" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\Return\{678238be-c0ad-4d44-933b-95f685565546}.xml" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\BankFolder\{ca7fb85d-5181-4938-acef-98944b762bb5}.xml" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\AudioFile\{d56d43d6-a13f-482b-a9d2-244edd9622be}.xml" />
      <None Include="Assets\test.txt" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\Mixer.xml" />
+     <None Include="Assets\Comunes\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\surfaceAlpha.shader" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\AudioFolder\{02e96299-2e1a-4f60-a1bc-81fe1a92cd32}.xml" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Normal-Diffuse.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDShoulderDirtDX11.shader" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\Bank\{f49d52bd-5769-42b6-a0f2-b5a42476e07c}.xml" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderDX11.shader" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\Event\{eb7192ca-41e2-41a5-8e73-912233c30a41}.xml" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\AudioFile\{14c2a825-174f-4951-8e20-e3b0198c02e8}.xml" />
+     <None Include="Assets\Comunes\Tree1\ReadMe.txt" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\Surface.shader" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\Workspace.xml" />
-     <None Include="Assets\Comunes\fmod\audios fmod videojuegos\Metadata\SnapshotGroup\{2c90e1ca-8d99-46cf-9e36-308dfcb8f515}.xml" />
+     <None Include="Assets\Comunes\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Comunes\EasyRoads3D Free\_readme.txt" />
      <None Include="Assets\Comunes\EasyRoads3D Free\Shaders\EasyRoads3D-Road-Edit-Mode.shader" />
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+     <None Include="Assets\Comunes\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="EasyRoads3D">
- <HintPath>/Users/miguelolivares/Documents/Unity/ProyectoFinal/ProyectoFinal/Assets/Comunes/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
+ <HintPath>C:/Users/Juan/Documents/ProyectoFinal/ProyectoFinal/Assets/Comunes/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
