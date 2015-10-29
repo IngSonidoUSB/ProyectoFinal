@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{14c2a825-174f-4951-8e20-e3b0198c02e8}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.0448979591836736</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/The Sounds of Skateboarding_02 (1) {0b2d0e37-aa86-481b-be95-c544ddab8078}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{02e96299-2e1a-4f60-a1bc-81fe1a92cd32}</destination>
+        </relationship>
+    </object>
+</objects>
