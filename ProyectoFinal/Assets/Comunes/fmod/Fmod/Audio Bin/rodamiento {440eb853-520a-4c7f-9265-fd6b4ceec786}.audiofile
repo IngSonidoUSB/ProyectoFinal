@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{440eb853-520a-4c7f-9265-fd6b4ceec786}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>10.636190476190476</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/rodamiento {7905aca4-f0c9-417a-8574-9144cdf39a8a}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{0c748ced-8225-49f6-bbef-afef2801beda}</destination>
+        </relationship>
+    </object>
+</objects>
