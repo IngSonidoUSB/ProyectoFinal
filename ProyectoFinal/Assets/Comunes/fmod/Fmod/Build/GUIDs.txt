@@ -1,0 +1,32 @@
+{7de0b850-5407-4582-80dc-eecc8030c324} event:/Aceleracion
+{db5a0bc6-f96f-407b-bfa3-12c8529a1238} event:/AceleracionPersonaje
+{75916918-e5f8-496e-9c44-c73302448e46} event:/Bonus
+{18552456-99b9-45f2-8edc-9d9cc4c36a69} event:/Caida
+{0cbaab16-93d1-4fc6-9cac-82750c15b53a} event:/CIUDAD
+{f610c128-b66b-46f7-ae98-abf7b3ea3eb6} event:/Esfuerzo
+{65df9f20-9a11-4e6e-8420-35d71f8eb8fd} event:/evento_nivel5
+{17e94aaf-4b59-401a-b54a-1b59224280dc} event:/Golpe
+{b4864b31-35ac-4998-87b9-aafa5bc9b8f1} event:/grupo6
+{e07e88b0-6a9b-4712-a3bf-44723cacc593} event:/NATURALEZA
+{9ffa2d5d-1b73-483a-bb3e-f9ad90b5a4e4} event:/New
+{50a265cf-8c16-4a85-a5cc-9e469bd0d0ec} event:/New Event
+{7ca993e2-8518-4ce3-bf66-4c07172f7a50} event:/otroevento_nivel5
+{0647f1ae-57d2-4011-8a70-aabae163e9b0} event:/patin_nivel5
+{d7378506-16af-4bab-bf8d-cf173fd7e2b1} event:/PITO DE CARRO
+{ffc1f359-307e-448d-860b-69260b2f5d38} event:/Rodamiento
+{a79c1a36-f19d-4bc0-9ecb-ad241d1d63d3} event:/rodamiento (2)
+{4b6ff64b-44de-4ca4-8e74-efd5774f161e} event:/Salto
+{025bed0a-1922-4a07-b7f7-c5362b550b27} event:/Salto tabla
+{201836c5-9550-4350-95ee-0e266e3fa1bb} event:/SaltoPersonaje
+{01e0ddba-cde7-44cb-b9ef-c87acee8eb07} event:/sound_nivel1
+{ca312a15-9346-451d-a93f-dd4ee5342b97} event:/text_master
+{07b12baf-fc32-48d5-9198-3f04667607c8} bus:/
+{6c7637ad-cfdd-4e9d-809d-fb668ae44118} bus:/Reverb
+{ee7d7716-2196-4ccf-a063-7f68ad7ab3eb} bank:/Comun
+{98107786-71e4-4904-9442-3ed30cd1069c} bank:/Master Bank
+{960e30e4-b72a-4c85-a277-f5089b2fc33a} bank:/Nivel 1
+{2c102f19-65a1-4658-bdf7-bc31cd3e7caa} bank:/Nivel 2
+{f1bc7825-4b00-42ba-9b87-75e1e2d99c66} bank:/Nivel 3
+{50efc05e-dfc8-4d60-81ad-90be08e8d4c6} bank:/Nivel 4
+{c3f0c548-223c-4663-8599-00381d0199d2} bank:/Nivel 5
+{0c3d62fa-93ef-4c10-aa5b-1ced876c3b0a} bank:/Nivel 6

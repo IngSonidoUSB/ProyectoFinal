@@ -369,18 +369,11 @@ public class FMODEditorExtension : MonoBehaviour
 	static bool ImportAndRefresh(string filePath)
 	{
         FMOD.Studio.UnityUtil.Log("import from path: " + filePath);
-		
-		bool banksUpdated = CopyBanks(filePath);
+		CopyBanks(filePath);
 				
 		if (!LoadAllBanks())
 		{
 			return false;
-		}
-		
-		if (!banksUpdated)
-		{
-			// no banks copied or user cancelled
-			return false; 
 		}
 		
 		List<FMODAsset> existingAssets = new List<FMODAsset>();
@@ -509,13 +502,13 @@ public class FMODEditorExtension : MonoBehaviour
 	[MenuItem ("FMOD/Online Manual")]
 	static void OnlineManual()
 	{
-        Application.OpenURL("http://www.fmod.org/documentation/#content/generated/engine_unity/overview.html");
+		Application.OpenURL("http://fmod.com/download/fmodstudio/integrations/Unity/Doc/UnityDocumentation.pdf");
 	}
     
     [MenuItem ("FMOD/Online API Documentation")]
 	static void OnlineAPIDocs()
 	{
-        Application.OpenURL("http://www.fmod.org/documentation/#content/generated/studio_api.html");
+		Application.OpenURL("http://fmod.com/documentation");
 	}
 	
 	[MenuItem ("FMOD/About Integration")]
