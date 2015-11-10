@@ -80,39 +80,67 @@
      <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
      <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
      <Compile Include="Assets\Comunes\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\EasyRoads3DTerrainID.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\MarkerScript.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\RoadObjectScript.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\SideObjectInit.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\SurfaceScript.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\sideObjectScript.cs" />
      <Compile Include="Assets\NIvel 3\text3.cs" />
      <Compile Include="Assets\NIvel 6\NewBehaviourScript.cs" />
      <Compile Include="Assets\Nivel 1\text1.cs" />
      <Compile Include="Assets\Nivel 2\text2.cs" />
      <Compile Include="Assets\Nivel 5\text5.cs" />
+     <Compile Include="Assets\Water Flow Free\Scripts\WaterFlow.cs" />
+     <Compile Include="Assets\Water Flow Free\Scripts\WaterFlowDemo.cs" />
+     <Compile Include="Assets\Water Flow Free\Scripts\WaterFlowOrbitCamera.cs" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDTransparentWithShadowsZ.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDShoulderDirt.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Surface.shader" />
      <None Include="Assets\Comunes\Single_rock\readme.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShader.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Readme.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderLow.shader" />
+     <None Include="Assets\EasyRoads3D Free\Release Notes.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderLowDX11.shader" />
-     <None Include="Assets\Nivel 4\Assets\Assets\San Francisco House\readme.txt" />
+     <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\Comunes\RoadArchitect\versionhistory.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDTransparentWithShadows.shader" />
      <None Include="Assets\Comunes\fmod\Fmod\Build\GUIDs.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D Marker.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Surface_Alpha.shader" />
+     <None Include="Assets\Water Flow Free\Shaders\Water Simple.shader" />
      <None Include="Assets\test.txt" />
      <None Include="Assets\Comunes\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Nivel 4\Assets\Assets\Bike\Shaders\AlphaTest_Complete.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\surfaceAlpha.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Normal-Diffuse.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDShoulderDirtDX11.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderDX11.shader" />
+     <None Include="Assets\license.txt" />
      <None Include="Assets\Comunes\Tree1\ReadMe.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\Surface.shader" />
      <None Include="Assets\Comunes\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Nivel 4\Assets\Assets\Urban_Props\readme.txt" />
-     <None Include="Assets\Nivel 4\Assets\ProjectSettings\ProjectVersion.txt" />
-     <None Include="Assets\Nivel 4\ProjectSettings\ProjectVersion.txt" />
+     <None Include="Assets\Horse\SoftAlpha.shader" />
+     <None Include="Assets\Urban_Props\readme.txt" />
+     <None Include="Assets\EasyRoads3D Free\_readme.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Road-Edit-Mode.shader" />
      <None Include="Assets\Comunes\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Water Flow Free\!Readme.txt" />
      <None Include="Assets\StreamingAssets\FMOD_bank_list.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3D">
+ <HintPath>/Users/andrez12321/Documents/ProyectoFinal/ProyectoFinal/Assets/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

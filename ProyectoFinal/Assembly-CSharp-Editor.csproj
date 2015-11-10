@@ -62,32 +62,51 @@
      <Compile Include="Assets\Comunes\RoadArchitect\Editor\GSDSplineNEditor.cs" />
      <Compile Include="Assets\Comunes\RoadArchitect\Editor\GSDTerrainEditor.cs" />
      <Compile Include="Assets\Comunes\RoadArchitect\Editor\GSDWizard.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\EasyRoadsEditorMenu.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\NewEasyRoads3D.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\ObjectManager.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\ProceduralObjectsEditor.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\SideObjectImporter.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\SideObjectInit.cs" />
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\Editor\FMODEventEmitterInspector.cs" />
      <Compile Include="Assets\Editor\FMODEventInspector.cs" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDTransparentWithShadowsZ.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDShoulderDirt.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Surface.shader" />
      <None Include="Assets\Comunes\Single_rock\readme.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShader.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Readme.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderLow.shader" />
+     <None Include="Assets\EasyRoads3D Free\Release Notes.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderLowDX11.shader" />
-     <None Include="Assets\Nivel 4\Assets\Assets\San Francisco House\readme.txt" />
+     <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\Comunes\RoadArchitect\versionhistory.txt" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDTransparentWithShadows.shader" />
      <None Include="Assets\Comunes\fmod\Fmod\Build\GUIDs.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D Marker.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Surface_Alpha.shader" />
+     <None Include="Assets\Water Flow Free\Shaders\Water Simple.shader" />
      <None Include="Assets\test.txt" />
      <None Include="Assets\Comunes\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Nivel 4\Assets\Assets\Bike\Shaders\AlphaTest_Complete.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\surfaceAlpha.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Normal-Diffuse.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDShoulderDirtDX11.shader" />
      <None Include="Assets\Comunes\RoadArchitect\Shaders\GSDRoadShaderDX11.shader" />
+     <None Include="Assets\license.txt" />
      <None Include="Assets\Comunes\Tree1\ReadMe.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\Surface.shader" />
      <None Include="Assets\Comunes\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Nivel 4\Assets\Assets\Urban_Props\readme.txt" />
-     <None Include="Assets\Nivel 4\Assets\ProjectSettings\ProjectVersion.txt" />
-     <None Include="Assets\Nivel 4\ProjectSettings\ProjectVersion.txt" />
+     <None Include="Assets\Horse\SoftAlpha.shader" />
+     <None Include="Assets\Urban_Props\readme.txt" />
+     <None Include="Assets\EasyRoads3D Free\_readme.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Road-Edit-Mode.shader" />
      <None Include="Assets\Comunes\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Water Flow Free\!Readme.txt" />
      <None Include="Assets\StreamingAssets\FMOD_bank_list.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -102,6 +121,15 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3DEditor">
+ <HintPath>/Users/andrez12321/Documents/ProyectoFinal/ProyectoFinal/Assets/EasyRoads3D Free/Editor/EasyRoads3DEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3D">
+ <HintPath>/Users/andrez12321/Documents/ProyectoFinal/ProyectoFinal/Assets/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
