@@ -185,14 +185,14 @@
         <relationship name="destination">
             <destination>{05e11339-84f7-4060-9cfd-5cb6f5cfbfb7}</destination>
         </relationship>
-        <relationship name="triggerCondition">
-            <destination>{17a82966-3419-4371-adbb-9e830cf4a04d}</destination>
-        </relationship>
         <relationship name="timeline">
             <destination>{85291c3f-c1b6-4230-9ce5-6c84c0db1ed4}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{b13ac3df-cd86-4555-b150-74f3a68d6c95}</destination>
+        </relationship>
+        <relationship name="triggerCondition">
+            <destination>{17a82966-3419-4371-adbb-9e830cf4a04d}</destination>
         </relationship>
     </object>
     <object class="TransitionMarker" id="{66e637ff-cc93-4e06-a836-ab9548784f44}">
@@ -211,7 +211,7 @@
     </object>
     <object class="LoopRegion" id="{941b809a-2d4c-4ede-a080-9bd384a1d8f0}">
         <property name="position">
-            <value>0.51333661672904529</value>
+            <value>0.26551893968743723</value>
         </property>
         <property name="length">
             <value>0.20000000298023224</value>

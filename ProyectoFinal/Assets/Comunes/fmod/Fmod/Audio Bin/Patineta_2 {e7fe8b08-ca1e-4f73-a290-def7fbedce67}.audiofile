@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{e7fe8b08-ca1e-4f73-a290-def7fbedce67}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.57469387755102042</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Patineta_2 {a95ccec0-8c03-462e-a690-34c670f368c3}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{0c748ced-8225-49f6-bbef-afef2801beda}</destination>
+        </relationship>
+    </object>
+</objects>
