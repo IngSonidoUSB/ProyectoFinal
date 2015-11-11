@@ -1,0 +1,60 @@
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: ATI Mobility Radeon HD 4200 Series (ID=0x9712)
+    Vendor:   ATI
+    VRAM:     252 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\EndlessRunner\compilado\LateToU_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\EndlessRunner\compilado\LateToU_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\EndlessRunner\compilado\LateToU_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\EndlessRunner\compilado\LateToU_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\EndlessRunner\compilado\LateToU_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\EndlessRunner\compilado\LateToU_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\EndlessRunner\compilado\LateToU_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\EndlessRunner\compilado\LateToU_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\EndlessRunner\compilado\LateToU_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\EndlessRunner\compilado\LateToU_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.094 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: F:\EndlessRunner\compilado\LateToU_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\EndlessRunner\compilado\LateToU_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 944 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.052877 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 299.
+Total: 0.675733 ms (FindLiveObjects: 0.091496 ms CreateObjectMapping: 0.084801 ms MarkObjects: 0.470871 ms  DeleteObjects: 0.025886 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.613248 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 299.
+Total: 0.420883 ms (FindLiveObjects: 0.066055 ms CreateObjectMapping: 0.038830 ms MarkObjects: 0.290110 ms  DeleteObjects: 0.024547 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.676180 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 714.
+Total: 0.627530 ms (FindLiveObjects: 0.088372 ms CreateObjectMapping: 0.052219 ms MarkObjects: 0.307070 ms  DeleteObjects: 0.178529 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: dd8 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.157763 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 714.
+Total: 0.662790 ms (FindLiveObjects: 0.093727 ms CreateObjectMapping: 0.054005 ms MarkObjects: 0.323138 ms  DeleteObjects: 0.191026 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.080995 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 714.
+Total: 0.683321 ms (FindLiveObjects: 0.098637 ms CreateObjectMapping: 0.053112 ms MarkObjects: 0.330279 ms  DeleteObjects: 0.199952 ms)
+
